@@ -19,5 +19,5 @@ fun main(args: Array<String>) {
 //  4-
 //    Throws illegal argument exception
     requireNotNull(b)
-    requireNotNull(b, lazyMessage = { "Value can't be null" })
+    requireNotNull<Boolean>(b, lazyMessage = { "Value can't be null" })
 }

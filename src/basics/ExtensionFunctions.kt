@@ -6,7 +6,7 @@ import java.util.*
  * Created by Mohamed Hassan on 5/30/2017.
  */
 fun String.toTitleCase(): String {
-    return this.split(" ").joinToString(" ") { it.capitalize() }
+    return this.split(" ").joinToString<String>(" ") { it.capitalize() }
 }
 
 fun Date.isTuesday() = day == 2
