@@ -33,6 +33,10 @@ public class CustomerJava {
         this.email = email;
     }
 
+    public void print() {
+        System.out.println("Id: " + id + " name: " + name);
+    }
+
     @Override
     public String toString() {
         return "CustomerJava{" +
